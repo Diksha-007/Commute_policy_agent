@@ -41,7 +41,12 @@ docker compose up --build
 
 The real evaluation's results are in `eval/results/` (JSONL in the required `id, input, expected, actual, pass, notes` format, plus summaries). They are analysed in **[docs/evaluation.md](docs/evaluation.md)**. A real run **replaces** the committed results file; add `--out eval/results/my_run` to keep it.
 
+### Evaluation set (for reviewers)
 
+**The evaluation set file is [`eval/results/results_groq_hyde_on.jsonl`](eval/results/results_groq_hyde_on.jsonl).** It has one line per case (36 lines), each with the fields `id`, `input`, `expected`, `actual`, `pass` and `notes`. It is the result of running the pipeline as the app runs it (HyDE on, real model, LLM judge). Result: 33 of 36 cases passed.
+
+- The case definitions the runner reads are in [`eval/cases.jsonl`](eval/cases.jsonl). That file holds only the questions and references, so it has no `actual` or `pass`.
+- A readable summary of the same run is in [`eval/results/summary_groq_hyde_on.md`](eval/results/summary_groq_hyde_on.md). How the cases are judged is explained in [docs/evaluation.md](docs/evaluation.md).
 
 ### If something goes wrong
 
