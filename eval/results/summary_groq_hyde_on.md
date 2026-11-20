@@ -1,0 +1,35 @@
+# Evaluation summary: groq_hyde_on
+
+| metric | value |
+|---|---|
+| scoring | LLM judge with reference answers (qwen/qwen3.8-27b); leak check in code |
+| judge_vs_strings_agree | 32/34 |
+| judge_errors | 0 |
+| use_hyde | True |
+| use_mmr | False |
+| repeats | 1 |
+| cases | 36 |
+| cases_passed | 33 |
+| case_pass_rate | 0.917 |
+| run_pass_rate | 0.917 |
+| retrieval_hit_at_5 | 1.0 |
+| multi_section_coverage_at_5 | 0.95 |
+| multi_section_full_coverage | 0.9 |
+| multi_section_run_pass_rate | 0.9 |
+| status_accuracy | 0.944 |
+| citation_accuracy | 1.0 |
+| content_accuracy | 0.917 |
+| leaks | 0 |
+| infra_errors | 2 |
+| hyde_fallbacks | 4 |
+| inconsistent_cases | 0 |
+| latency_ms_p50 | 1516 |
+| latency_ms_p95 | 2392 |
+| latency_ms_p95_llm_answered_path | 2392 |
+| latency_ms_max | 2474 |
+| llm_calls_avg | 1.944 |
+| llm_calls_max | 2 |
+| max_citations | 2 |
+| status_counts | {'answered': 27, 'try_again': 2, 'not_covered': 7} |
+| pass_by_category | {'cross_company': '4/4', 'direct': '3/4', 'injection': '3/4', 'multi_section': '9/10', 'not_covered': '3/3', 'paraphrase': '4/4', 'table': '4/4', 'version': '3/3'} |
+| failed_cases | ['direct-globex-eligibility', 'inject-initech-annexure-claim', 'multi-acme-last-drop-guests'] |

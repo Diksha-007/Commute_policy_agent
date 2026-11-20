@@ -1,0 +1,54 @@
+[
+  {
+    "fact_id": "initech-f001",
+    "summary": "An employee involved in or witnessing a transport incident must notify the transport desk within 24 hours.",
+    "section_ids": [
+      "14.2",
+      "25.5"
+    ],
+    "distinctive_strings": [
+      "24 hours",
+      "Incident report deadline"
+    ],
+    "statement_count": 2
+  },
+  {
+    "fact_id": "initech-f002",
+    "summary": "The Early shift begins at 6:30 AM.",
+    "section_ids": [
+      "3.1"
+    ],
+    "distinctive_strings": [
+      "6:30 AM",
+      "Early"
+    ],
+    "statement_count": 1
+  },
+  {
+    "fact_id": "initech-f003",
+    "summary": "The transport desk may authorize medical emergency expenditure up to ₹2,000 per incident.",
+    "section_ids": [
+      "14.3",
+      "18.5",
+      "25.4"
+    ],
+    "distinctive_strings": [
+      "₹2,000",
+      "medical emergency cap"
+    ],
+    "statement_count": 3
+  },
+  {
+    "fact_id": "initech-f004",
+    "summary": "Sunday transport requires separate confirmation against the Sunday duty roster. A Saturday allocation does not automatically carry over to Sunday.",
+    "section_ids": [
+      "5.4"
+    ],
+    "distinctive_strings": [
+      "separate confirmation",
+      "Sunday duty roster",
+      "does not automatically carry over"
+    ],
+    "statement_count": 1
+  }
+]

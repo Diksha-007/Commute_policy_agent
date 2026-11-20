@@ -1,0 +1,193 @@
+[
+  {
+    "fact_id": "initech-xf01",
+    "summary": "The one-way journey is limited to 120 minutes.",
+    "section_ids": [
+      "6.4",
+      "12.1",
+      "12.5",
+      "25.1"
+    ],
+    "distinctive_strings": [
+      "120 minutes",
+      "120-minute"
+    ],
+    "statement_count": 4
+  },
+  {
+    "fact_id": "initech-xf02",
+    "summary": "A billing dispute must be raised within 60 calendar days.",
+    "section_ids": [
+      "18.2",
+      "25.4"
+    ],
+    "distinctive_strings": [
+      "60 calendar days"
+    ],
+    "statement_count": 2
+  },
+  {
+    "fact_id": "initech-xf03",
+    "summary": "Journey location data is retained for 30 days.",
+    "section_ids": [
+      "19.2",
+      "25.5"
+    ],
+    "distinctive_strings": [
+      "30 days"
+    ],
+    "statement_count": 2
+  },
+  {
+    "fact_id": "initech-xf04",
+    "summary": "The Early shift drop departs at 3:45 PM.",
+    "section_ids": [
+      "3.1"
+    ],
+    "distinctive_strings": [
+      "3:45 PM"
+    ],
+    "statement_count": 1
+  },
+  {
+    "fact_id": "initech-xf05",
+    "summary": "A guest trip is capped at ₹2,500.",
+    "section_ids": [
+      "8.2",
+      "9.3",
+      "25.4"
+    ],
+    "distinctive_strings": [
+      "₹2,500"
+    ],
+    "statement_count": 3
+  },
+  {
+    "fact_id": "initech-xf06",
+    "summary": "A third no-show suspends transport for 1 month.",
+    "section_ids": [
+      "7.2",
+      "25.3"
+    ],
+    "distinctive_strings": [
+      "1 month",
+      "1-month"
+    ],
+    "statement_count": 2
+  },
+  {
+    "fact_id": "initech-xf07",
+    "summary": "A vehicle may be at most 7 years old.",
+    "section_ids": [
+      "13.1",
+      "25.1"
+    ],
+    "distinctive_strings": [
+      "7 years",
+      "seven years"
+    ],
+    "statement_count": 2
+  },
+  {
+    "fact_id": "initech-xf08",
+    "summary": "A driver may work at most 12 duty hours in a day.",
+    "section_ids": [
+      "13.3",
+      "25.1"
+    ],
+    "distinctive_strings": [
+      "12 duty hours",
+      "12 hours"
+    ],
+    "statement_count": 2
+  },
+  {
+    "fact_id": "initech-xf09",
+    "summary": "The vendor's on-time pickup target is 90%.",
+    "section_ids": [
+      "17.3",
+      "25.2"
+    ],
+    "distinctive_strings": [
+      "90%"
+    ],
+    "statement_count": 2
+  },
+  {
+    "fact_id": "initech-xf10",
+    "summary": "A dispatch instruction must be acknowledged within 10 minutes.",
+    "section_ids": [
+      "17.4",
+      "25.2"
+    ],
+    "distinctive_strings": [
+      "10 minutes"
+    ],
+    "statement_count": 2
+  },
+  {
+    "fact_id": "initech-xf11",
+    "summary": "A complaint is acknowledged within 3 working days.",
+    "section_ids": [
+      "20.2",
+      "25.4"
+    ],
+    "distinctive_strings": [
+      "3 working days"
+    ],
+    "statement_count": 2
+  },
+  {
+    "fact_id": "initech-xf12",
+    "summary": "A review may be requested within 5 working days of receiving the closure communication.",
+    "section_ids": [
+      "20.7",
+      "25.6"
+    ],
+    "distinctive_strings": [
+      "Employee complaint appeal",
+      "5 working days of receiving the closure communication"
+    ],
+    "statement_count": 2
+  },
+  {
+    "fact_id": "initech-xf13",
+    "summary": "A hybrid-day allocation must be cancelled at least 6 hours before the journey.",
+    "section_ids": [
+      "11.2",
+      "11.4",
+      "25.2"
+    ],
+    "distinctive_strings": [
+      "6 hours",
+      "6-hour"
+    ],
+    "statement_count": 3
+  },
+  {
+    "fact_id": "initech-xf14",
+    "summary": "An ordinary recurring request may cover no more than 7 calendar days.",
+    "section_ids": [
+      "4.3",
+      "25.2"
+    ],
+    "distinctive_strings": [
+      "Recurring booking horizon",
+      "no more than 7 calendar days"
+    ],
+    "statement_count": 2
+  },
+  {
+    "fact_id": "initech-xf15",
+    "summary": "A trip can be cancelled up to 30 minutes before the scheduled time.",
+    "section_ids": [
+      "4.2",
+      "25.2"
+    ],
+    "distinctive_strings": [
+      "Ordinary cancellation deadline",
+      "up to 30 minutes before the scheduled time"
+    ],
+    "statement_count": 2
+  }
+]

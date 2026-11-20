@@ -1,0 +1,180 @@
+[
+  {
+    "fact_id": "globex-xf01",
+    "summary": "The walk to the boarding point must not exceed 300 metres.",
+    "section_ids": [
+      "12.4",
+      "25.1"
+    ],
+    "distinctive_strings": [
+      "300 metres"
+    ],
+    "statement_count": 2
+  },
+  {
+    "fact_id": "globex-xf02",
+    "summary": "A vehicle must be no more than 4 years old.",
+    "section_ids": [
+      "13.1",
+      "25.1"
+    ],
+    "distinctive_strings": [
+      "4 years",
+      "four years"
+    ],
+    "statement_count": 2
+  },
+  {
+    "fact_id": "globex-xf03",
+    "summary": "Journey location data is retained for 180 days.",
+    "section_ids": [
+      "19.2",
+      "25.5"
+    ],
+    "distinctive_strings": [
+      "180 days"
+    ],
+    "statement_count": 2
+  },
+  {
+    "fact_id": "globex-xf04",
+    "summary": "The Morning shift drop departs at 4:15 PM.",
+    "section_ids": [
+      "3.1"
+    ],
+    "distinctive_strings": [
+      "4:15 PM"
+    ],
+    "statement_count": 1
+  },
+  {
+    "fact_id": "globex-xf05",
+    "summary": "A late-stay trip is capped at ₹600.",
+    "section_ids": [
+      "8.2",
+      "25.4"
+    ],
+    "distinctive_strings": [
+      "₹600"
+    ],
+    "statement_count": 2
+  },
+  {
+    "fact_id": "globex-xf06",
+    "summary": "A third no-show suspends transport for 2 weeks.",
+    "section_ids": [
+      "7.1",
+      "7.2",
+      "25.3"
+    ],
+    "distinctive_strings": [
+      "2 weeks",
+      "two weeks"
+    ],
+    "statement_count": 3
+  },
+  {
+    "fact_id": "globex-xf07",
+    "summary": "The one-way journey is limited to 75 minutes.",
+    "section_ids": [
+      "6.3",
+      "12.1",
+      "12.5",
+      "25.1"
+    ],
+    "distinctive_strings": [
+      "75 minutes",
+      "75-minute"
+    ],
+    "statement_count": 4
+  },
+  {
+    "fact_id": "globex-xf08",
+    "summary": "The vendor's on-time pickup target is 98%.",
+    "section_ids": [
+      "17.2",
+      "25.2"
+    ],
+    "distinctive_strings": [
+      "98%"
+    ],
+    "statement_count": 2
+  },
+  {
+    "fact_id": "globex-xf09",
+    "summary": "A dispatch instruction must be acknowledged within 10 minutes.",
+    "section_ids": [
+      "17.3",
+      "25.2"
+    ],
+    "distinctive_strings": [
+      "10 minutes"
+    ],
+    "statement_count": 2
+  },
+  {
+    "fact_id": "globex-xf10",
+    "summary": "An incident must be reported within 1 hour.",
+    "section_ids": [
+      "14.2",
+      "25.5"
+    ],
+    "distinctive_strings": [
+      "1 hour"
+    ],
+    "statement_count": 2
+  },
+  {
+    "fact_id": "globex-xf11",
+    "summary": "Emergency medical expenditure is capped at ₹1,500 per incident.",
+    "section_ids": [
+      "8.2",
+      "14.3",
+      "25.4"
+    ],
+    "distinctive_strings": [
+      "₹1,500"
+    ],
+    "statement_count": 3
+  },
+  {
+    "fact_id": "globex-xf12",
+    "summary": "A hybrid-day cancellation must be made at least 24 hours before pickup.",
+    "section_ids": [
+      "11.2",
+      "11.4",
+      "25.2"
+    ],
+    "distinctive_strings": [
+      "24 hours",
+      "24-hour"
+    ],
+    "statement_count": 3
+  },
+  {
+    "fact_id": "globex-xf13",
+    "summary": "An ordinary recurring request may cover no more than 14 calendar days.",
+    "section_ids": [
+      "4.3",
+      "25.2"
+    ],
+    "distinctive_strings": [
+      "Recurring booking horizon",
+      "no more than 14 calendar days"
+    ],
+    "statement_count": 2
+  },
+  {
+    "fact_id": "globex-xf14",
+    "summary": "A review of the outcome may be requested within 5 working days of receiving the closure communication.",
+    "section_ids": [
+      "20.7",
+      "25.6"
+    ],
+    "distinctive_strings": [
+      "Complaint outcome review request",
+      "5 working days of receiving the closure communication"
+    ],
+    "statement_count": 2
+  }
+]

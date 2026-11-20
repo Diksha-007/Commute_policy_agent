@@ -1,0 +1,180 @@
+[
+  {
+    "fact_id": "acme-xf01",
+    "summary": "The one-way journey should stay within 90 minutes.",
+    "section_ids": [
+      "12.1",
+      "12.5",
+      "25.1"
+    ],
+    "distinctive_strings": [
+      "90 minutes",
+      "90-minute"
+    ],
+    "statement_count": 3
+  },
+  {
+    "fact_id": "acme-xf02",
+    "summary": "A vehicle may be at most 5 years from first registration.",
+    "section_ids": [
+      "13.1",
+      "25.3"
+    ],
+    "distinctive_strings": [
+      "five years",
+      "5 years"
+    ],
+    "statement_count": 2
+  },
+  {
+    "fact_id": "acme-xf03",
+    "summary": "Trip location data is retained for 90 calendar days.",
+    "section_ids": [
+      "19.3",
+      "25.4"
+    ],
+    "distinctive_strings": [
+      "90 calendar days"
+    ],
+    "statement_count": 2
+  },
+  {
+    "fact_id": "acme-xf04",
+    "summary": "The Early shift drop departs at 3:15 PM.",
+    "section_ids": [
+      "3.1"
+    ],
+    "distinctive_strings": [
+      "3:15 PM"
+    ],
+    "statement_count": 1
+  },
+  {
+    "fact_id": "acme-xf05",
+    "summary": "A late-stay trip is capped at ₹1,000.",
+    "section_ids": [
+      "8.2",
+      "25.6"
+    ],
+    "distinctive_strings": [
+      "Late stay beyond last drop"
+    ],
+    "statement_count": 2
+  },
+  {
+    "fact_id": "acme-xf06",
+    "summary": "A guest trip is capped at ₹3,500.",
+    "section_ids": [
+      "8.2",
+      "25.6"
+    ],
+    "distinctive_strings": [
+      "₹3,500"
+    ],
+    "statement_count": 2
+  },
+  {
+    "fact_id": "acme-xf07",
+    "summary": "A driver may work at most 10 hours of driving duty a day.",
+    "section_ids": [
+      "13.3",
+      "25.3",
+      "25.5"
+    ],
+    "distinctive_strings": [
+      "10 hours"
+    ],
+    "statement_count": 3
+  },
+  {
+    "fact_id": "acme-xf08",
+    "summary": "Emergency medical expenditure is capped at ₹2,500 per incident.",
+    "section_ids": [
+      "14.3",
+      "15.5",
+      "18.5",
+      "25.4"
+    ],
+    "distinctive_strings": [
+      "₹2,500"
+    ],
+    "statement_count": 4
+  },
+  {
+    "fact_id": "acme-xf09",
+    "summary": "Door-to-door service is available from the 24th week of pregnancy.",
+    "section_ids": [
+      "15.2",
+      "25.4"
+    ],
+    "distinctive_strings": [
+      "24th week",
+      "From week 24"
+    ],
+    "statement_count": 2
+  },
+  {
+    "fact_id": "acme-xf10",
+    "summary": "A billing dispute must be raised within 30 calendar days.",
+    "section_ids": [
+      "18.3",
+      "25.5"
+    ],
+    "distinctive_strings": [
+      "30 calendar days"
+    ],
+    "statement_count": 2
+  },
+  {
+    "fact_id": "acme-xf11",
+    "summary": "A complaint is acknowledged within 24 hours.",
+    "section_ids": [
+      "20.2",
+      "25.5"
+    ],
+    "distinctive_strings": [
+      "24 hours"
+    ],
+    "statement_count": 2
+  },
+  {
+    "fact_id": "acme-xf12",
+    "summary": "A hybrid-day booking must be cancelled at least 12 hours before pickup.",
+    "section_ids": [
+      "11.2",
+      "25.2"
+    ],
+    "distinctive_strings": [
+      "12 hours"
+    ],
+    "statement_count": 2
+  },
+  {
+    "fact_id": "acme-xf13",
+    "summary": "Recurring transport may be requested for up to 30 calendar days at a time.",
+    "section_ids": [
+      "4.3",
+      "25.2"
+    ],
+    "distinctive_strings": [
+      "Recurring booking horizon",
+      "recurring transport for a period of up to 30 calendar days"
+    ],
+    "statement_count": 2
+  },
+  {
+    "fact_id": "acme-xf14",
+    "summary": "The walk to the boarding point must not exceed 500 metres.",
+    "section_ids": [
+      "12.2",
+      "12.7",
+      "22.5",
+      "25.1"
+    ],
+    "distinctive_strings": [
+      "500 metres",
+      "500-metre"
+    ],
+    "statement_count": 4
+  }
+]

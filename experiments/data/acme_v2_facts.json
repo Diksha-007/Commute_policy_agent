@@ -1,0 +1,58 @@
+[
+  {
+    "fact_id": "acme-f1",
+    "summary": "A transport incident must be reported to the transport desk within 2 hours of becoming known.",
+    "section_ids": ["14.2", "25.4"],
+    "distinctive_strings": ["within 2 hours", "Incident reporting deadline"],
+    "statement_count": 2
+  },
+  {
+    "fact_id": "acme-f2",
+    "summary": "The Evening shift starts at 3:30 PM and its scheduled drop departs the office at 12:30 AM.",
+    "section_ids": ["3.1"],
+    "distinctive_strings": ["Evening", "3:30 PM", "12:30 AM"],
+    "statement_count": 1
+  },
+  {
+    "fact_id": "acme-f3",
+    "summary": "An ad-hoc trip requires approval first from the reporting manager and then from the transport desk, with both approvals recorded on the portal.",
+    "section_ids": ["6.1", "6.4"],
+    "distinctive_strings": ["first the employee's reporting manager, then the transport desk", "only one approval remains pending"],
+    "statement_count": 2
+  },
+  {
+    "fact_id": "acme-f4",
+    "summary": "The company pays up to ₹2,000 for a single ad-hoc trip; excess is recovered from the employee through payroll.",
+    "section_ids": ["8.1", "8.2", "25.6"],
+    "distinctive_strings": ["₹2,000", "Ad-hoc", "Reporting manager and transport desk"],
+    "statement_count": 3
+  },
+  {
+    "fact_id": "acme-f5",
+    "summary": "The first no-show in a calendar month leads to a warning.",
+    "section_ids": ["7.1", "7.2"],
+    "distinctive_strings": ["first no-show", "Warning"],
+    "statement_count": 2
+  },
+  {
+    "fact_id": "acme-f6",
+    "summary": "The second no-show in a calendar month carries a ₹200 fine recovered through payroll.",
+    "section_ids": ["7.1", "7.2"],
+    "distinctive_strings": ["₹200", "second no-show"],
+    "statement_count": 2
+  },
+  {
+    "fact_id": "acme-f7",
+    "summary": "The third no-show in a calendar month carries a ₹500 fine and a one-week transport suspension.",
+    "section_ids": ["7.2"],
+    "distinctive_strings": ["₹500", "1 week"],
+    "statement_count": 1
+  },
+  {
+    "fact_id": "acme-f8",
+    "summary": "Four or more no-shows in a calendar month result in a one-month transport suspension.",
+    "section_ids": ["7.2"],
+    "distinctive_strings": ["4 or more", "1 month"],
+    "statement_count": 1
+  }
+]

@@ -1,0 +1,37 @@
+[
+  {
+    "fact_id": "globex-f001",
+    "summary": "The Transport Desk acknowledges a transport complaint within 4 hours of receipt.",
+    "section_ids": ["20.2", "25.4"],
+    "distinctive_strings": ["4 hours", "Complaint acknowledgement"],
+    "statement_count": 2
+  },
+  {
+    "fact_id": "globex-f002",
+    "summary": "A complaint is escalated to the Transport Operations Lead when it remains unresolved after 2 working days.",
+    "section_ids": ["20.5"],
+    "distinctive_strings": ["Transport Operations Lead", "2 working days"],
+    "statement_count": 1
+  },
+  {
+    "fact_id": "globex-f003",
+    "summary": "Scheduled transport is suspended when the competent local authority issues an orange or red weather alert affecting the operating area.",
+    "section_ids": ["21.1", "25.6"],
+    "distinctive_strings": ["orange or red weather alert", "Orange or red weather alert"],
+    "statement_count": 2
+  },
+  {
+    "fact_id": "globex-f004",
+    "summary": "Transport service resumes only after the relevant alert has been withdrawn or the affected access route has been confirmed operationally suitable.",
+    "section_ids": ["21.6"],
+    "distinctive_strings": ["alert has been withdrawn", "operationally suitable"],
+    "statement_count": 1
+  },
+  {
+    "fact_id": "globex-f005",
+    "summary": "Sunday operations require a separate written sanction from the Director HR, including when a Saturday arrangement has already been approved.",
+    "section_ids": ["5.4"],
+    "distinctive_strings": ["Sunday operations", "separate written sanction", "Director HR"],
+    "statement_count": 1
+  }
+]

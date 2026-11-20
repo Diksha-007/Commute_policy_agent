@@ -1,0 +1,12 @@
+.env
+data/
+.git/
+__pycache__/
+*.pyc
+.pytest_cache/
+.venv/
+venv/
+.vscode/
+.idea/
+experiments/model_cache/
+experiments/cache/

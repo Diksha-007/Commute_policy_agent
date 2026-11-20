@@ -1,0 +1,38 @@
+# Secrets: never commit
+.env
+
+# Runtime data (Chroma + SQLite registry)
+/data/
+
+# Python
+__pycache__/
+*.pyc
+.pytest_cache/
+.venv/
+venv/
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
+
+# Embedding models downloaded for the experiments (large)
+experiments/model_cache/
+experiments/cache/
+
+# Not part of the submission
+PLAN.md
+claude.md
+CLAUDE.md
+eval/results/archive_*/
+
+# Experiments (docs/experiments.md): scripts and data are shipped; outputs, caches, tests and drafts are not
+experiments/results/
+experiments/tests/
+experiments/cache/
+experiments/model_cache/
+experiments/data/_unused/
+experiments/Dockerfile
+experiments/requirements.txt
+experiments/download_models.py
+experiments/run_e3c.py
