@@ -221,6 +221,8 @@ We compared four setups in experiment E2:
 | Average facts found | 0.76 | 0.76 | **0.87** | 0.82 |
 | Questions with all required facts retrieved | 67% | 69% | **81%** | 77% |
 
+**How the metrics are defined.** Each question is labelled with the facts an answer needs (for example, a two-part question needs two facts). A fact counts as *found* if at least one of the retrieved chunks comes from a section labelled for that fact and contains the fact's key text; no LLM decides this. **Average facts found** is the share of a question's needed facts that were found (0 to 1, so 0.87 means 87% of the needed facts reached the LLM), averaged over all questions. **Questions with all required facts retrieved** is the share of questions where every needed fact was found. Full definitions are in [docs/experiments.md](docs/experiments.md).
+
 The results showed that:
 - Increasing the number of retrieved chunks from 3 to 5 improved the average facts retrieved from 0.76 to 0.87.
 - MMR did not provide any meaningful improvement. None of the 32 combinations of its parameters and candidate pool sizes performed better than plain Top 5 retrieval.
@@ -295,11 +297,16 @@ With these experiments and decisions in place, our current query pipeline works 
 ```mermaid
 flowchart TD
     A((Employee Question)) --> B[Authenticate + Validate]
-    B --> C[HyDE: Generate Hypothetical Answer]
-    C --> D[Embed HyDE Passage]
-    D --> E[Search ChromaDB]
-    E --> F[Top 5 Chunks]
-    F --> G[LLM: Generate Answer]
+    B --> C[LLM call 1: HyDE, generate hypothetical policy passage]
+    B --> D1[Embed original question]
+    C --> D2[Embed HyDE passage]
+    D1 --> E1[Search ChromaDB: question]
+    D2 --> E2[Search ChromaDB: HyDE passage]
+    E1 --> R[RRF: fuse both rankings, keep top 5]
+    E2 --> R
+    R --> S[Isolation check + similarity check]
+    S -->|too weak| N((Not covered, no answer call))
+    S --> G[LLM call 2: Generate Answer]
     G --> H[Validate Answer + Citations]
     H --> I((Answer + Max 3 Citations))
 
